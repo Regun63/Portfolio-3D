@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+@layer utilities {
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    15% { transform: rotate(20deg); }
+    40% { transform: rotate(0deg); }
+    60% { transform: rotate(20deg); }
+    80% { transform: rotate(0deg); }
+    100% { transform: rotate(0deg); }
+  }
+
+  .animate-wave {
+    animation: wave 2.5s infinite ease-in-out;
+    display: inline-block;
+  }
+}
+
+/* Add to your CSS */
+.absolute {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+}
+.btn-ping {
+  position: absolute;
+  display: inline-flex;
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  background-color: #22c55e; /* Tailwind's bg-green-400 */
+  opacity: 0.75;
+  animation: ping 1s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+.btn-ping_dot {
+  position: relative;
+  display: inline-flex;
+  border-radius: 50%;
+  height: 0.75rem; /* Equivalent to h-3 */
+  width: 0.75rem; /* Equivalent to w-3 */
+  background-color: #16a34a; /* Tailwind's bg-green-500 */
+}
+
+/* Ping Animation (matches Tailwind's animate-ping) */
+@keyframes ping {
+  75%, 100% {
+      transform: scale(2);
+      opacity: 0;
+  }
+}
+.spotlight-image {
+  -webkit-mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+  mask-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
+}
+.loader {
+  border: 3px solid transparent;
+  border-top: 3px solid white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 0.7s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
