@@ -58,16 +58,17 @@ export const navLinks = [
   
   export const myProjects = [
     {
-      title: 'Podcastr - AI Podcast Platform',
-      desc: 'Podcastr is a revolutionary Software-as-a-Service platform that transforms the way podcasts are created. With advanced AI-powered features like text-to-multiple-voices functionality, it allows creators to generate diverse voiceovers from a single text input.',
+      title: 'peeKaBoo Social Media Web-Application',
+      desc: 'Peekaboo is a dynamic full-stack social media web application built to foster real-time interaction and engagement. Designed with a modern and responsive user interface with Authentication, Peekaboo allows users to create and share posts, like and comment on content, chat in real time, and build connections through follow/unfollow functionality.',
       subdesc:
-        'Built as a unique Software-as-a-Service app with Next.js 14, Tailwind CSS, TypeScript, Framer Motion and Convex, Podcastr is designed for optimal performance and scalability.',
-      href: 'https://www.youtube.com/watch?v=zfAb95tJvZQ',
+        'Built as a unique Software-as-a-Service app with React.js 14, Tailwind CSS, JavaScript, JWT for authentication, MongoDB for dataStorage, Node.js and Express.js for backend .',
+      href: 'https://peekaboo-myfrontend2.onrender.com',
       texture: '/textures/project/project1.mp4',
-      logo: '/src/assets/project-logo1.png',
+      logo: '/src/assets/logo1.jpg',
       logoStyle: {
-        backgroundColor: '#2A1816',
+        backgroundColor: '#f0f0f0',
         border: '0.2px solid #36201D',
+        borderRadius:'50%',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
       spotlight: '/src/assets/spotlight1.png',
@@ -84,8 +85,8 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/src/assets/typescript.png',
+          name: 'JavaScript',
+          path: '/src/assets/js.png',
         },
         {
           id: 4,
@@ -95,13 +96,13 @@ export const navLinks = [
       ],
     },
     {
-      title: 'LiveDoc - Real-Time Google Docs Clone',
-      desc: 'LiveDoc is a powerful collaborative app that elevates the capabilities of real-time document editing. As an enhanced version of Google Docs, It supports millions of collaborators simultaneously, ensuring that every change is captured instantly and accurately.',
+      title: 'Landing Page Frontend Project',
+      desc: 'Built a Landing page for Web Application',
       subdesc:
-        'With LiveDoc, users can experience the future of collaboration, where multiple contributors work together in real time without any lag, by using Next.js and Liveblocks newest features.',
-      href: 'https://www.youtube.com/watch?v=y5vE8y_f_OM',
+        'Built a responsive and modern landing page for a fictional food delivery service called “Burger-Express". The project focuses on both UI/UX design and interactive behavior using only frontend technologies.Technologies used HTML, Tailwind ,JavaScript',
+      href: 'https://elite-internship-projects.vercel.app',
       texture: '/textures/project/project2.mp4',
-      logo: '/src/assets/project-logo2.png',
+      logo: '/src/assets/logo2.jpg',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
@@ -111,8 +112,8 @@ export const navLinks = [
       tags: [
         {
           id: 1,
-          name: 'React.js',
-          path: '/src/assets/react.svg',
+          name: 'HTML',
+          path: '/src/assets/html.png',
         },
         {
           id: 2,
@@ -121,24 +122,20 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/src/assets/typescript.png',
+          name: 'JavaScript',
+          path: '/src/assets/js.png',
         },
-        {
-          id: 4,
-          name: 'Framer Motion',
-          path: '/src/assets/framer.png',
-        },
+        
       ],
     },
     {
-      title: 'CarePulse - Health Management System',
-      desc: 'An innovative healthcare platform designed to streamline essential medical processes. It simplifies patient registration, appointment scheduling, and medical record management, providing a seamless experience for both healthcare providers and patients.',
+      title: '3D-Portfolio',
+      desc: 'A visually immersive 3D portfolio built using Three.js and GSAP for stunning animations and interactions. Integrated with ReactJS for a dynamic component-based structure, styled using TailwindCSS for modern, responsive design. HTML5 ensures semantic structure, while GSAP powers smooth scroll-based and timeline animations. This portfolio showcases projects, skills, and experience in a captivating 3D environment—making a lasting impression on visitors. ',
       subdesc:
-        'With a focus on efficiency, CarePulse integrantes complex forms and SMS notifications, by using Next.js, Appwrite, Twillio and Sentry that enhance operational workflows.',
-      href: 'https://www.youtube.com/watch?v=lEflo_sc82g',
+        'A creative 3D portfolio built with ReactJS, Three.js, GSAP, TailwindCSS, and HTML to showcase projects in an interactive and visually engaging way.',
+      href: '#',
       texture: '/textures/project/project3.mp4',
-      logo: '/src/assets/project-logo3.png',
+      logo: '/src/assets/logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -160,13 +157,13 @@ export const navLinks = [
         },
         {
           id: 3,
-          name: 'TypeScript',
-          path: '/src/assets/typescript.png',
+          name: 'Three.js',
+          path: '/src/assets/three.png',
         },
         {
           id: 4,
-          name: 'Framer Motion',
-          path: '/src/assets/framer.png',
+          name: 'Gasp',
+          path: '/src/assets/gasp.png',
         },
       ],
     },
